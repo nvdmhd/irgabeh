@@ -1,0 +1,986 @@
+@font-face {
+font-family: 'Vazir';
+src: url('fonts/Vazir.eot');
+src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+	 url('fonts/Vazir.woff') format('woff'),
+	 url('fonts/Vazir.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+.fusion-builder-live {
+	font-family: "Vazir";
+	direction: rtl;
+}
+
+.fusion-builder-live .option-field input[type=text] {
+    font-family: "Vazir";
+}
+
+#fb-preview {
+    left: 0;
+	right: auto;
+}
+
+.fusion-slider-loading {
+    right: 50%;
+    margin: -3em -3em 0 0;
+}
+
+.fusion-save-data-list {
+    text-align: right;
+}
+
+.fusion-save-data-list i {
+    margin-left: 10px;
+	margin-right: 0
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar {
+    left: auto;
+	right: 0;
+}
+
+
+.fusion-builder-live .fusion-builder-live-toolbar #fusion-builder-toolbar-history-menu .history-change-indicator {
+    left: 35%;
+	right: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-builder-history-list,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-builder-new-list,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-exit-builder-list,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-language-switcher-dropdown {
+    left: 0;
+    right: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-builder-history-list li span,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-builder-new-list li span,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-exit-builder-list li span,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-language-switcher-dropdown li span {
+    margin-left: 5px;
+	margin-right: 0;
+}
+
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-builder-history-list {
+    left: auto
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.additional-tools,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.admin-tools,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.builder-main-tools,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-language-switcher,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.pagename-link,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.save-wrapper {
+    float: left
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.additional-tools>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.admin-tools>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.builder-main-tools>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-language-switcher>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.pagename-link>ul>li,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.save-wrapper>ul>li {
+    float: right
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-language-switcher {
+    float: right;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.admin-tools,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-exit-builder,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.pagename-link {
+    float: right
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding .fusion-builder-exit {
+    padding: 7px 10px 7px 0;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.fusion-branding .fusion-builder-logo-wrapper {
+    padding: 0 15px 0 17px;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li.additional-tools.fb {
+    float: right
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page:hover,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-settings,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-settings:hover {
+    margin-right: 10px;
+	margin-left: 0
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page:before,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-settings:before {
+    left: 50%;
+    margin-right: -7px;
+	margin-left: 0;
+    border: 4px solid;
+    border-right-color: transparent;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page.sending:not(.expand),
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-settings.sending:not(.expand) {
+    text-align: right
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page.failed .failed-icon {
+    left: 50%;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li a.fusion-builder-save-page.success .success-icon {
+    left: 50%;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li ul {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li ul ul {
+    right: 100%;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav>li ul ul[aria-expanded=true] {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav li .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav li .has-tooltip.fusion-builder-support:before {
+    right: 10%;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav li .has-tooltip:after {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-live-toolbar .fusion-toolbar-nav li .has-tooltip.fusion-builder-support:before {
+    right: 52%;
+	left: auto;
+}
+
+#fusion-builder-confirmation-modal-dark-overlay {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-confirmation-modal-save {
+    right: 0;
+	left: auto;
+}
+
+#fusion-builder-confirmation-modal .actions button {
+    font-family: "Vazir";
+}
+
+#fusion-builder-confirmation-modal .actions button.x-close {
+    left: 0;
+	right: auto;
+}
+
+.fusion-hide-all-tooltips .fusion-builder-live-toolbar li.has-submenu:hover .submenu-trigger-target {
+    right: 0;
+	left: auto;
+}
+
+.fusion-option-color_scheme .ui-button:after,
+.fusion-option-scheme_type .ui-button:after {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-option.checkbox_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.checkbox_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.export .fusion-form-checkbox-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.export .fusion-form-radio-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.import .fusion-form-checkbox-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.import .fusion-form-radio-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.radio-buttonset .fusion-form-checkbox-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.radio_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button,
+.fusion-builder-option.radio_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button {
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    font-family: "Vazir" !important;
+}
+
+.fusion-builder-option.checkbox_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.checkbox_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.export .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.export .fusion-form-radio-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.import .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.import .fusion-form-radio-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.radio-buttonset .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.radio_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:first-of-type,
+.fusion-builder-option.radio_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button:first-of-type {
+    margin-right: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.fusion-builder-option.checkbox_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.checkbox_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.export .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.export .fusion-form-radio-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.import .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.import .fusion-form-radio-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.radio-buttonset .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.radio_button_set .fusion-form-checkbox-button-set.ui-buttonset a.ui-button:last-of-type,
+.fusion-builder-option.radio_button_set .fusion-form-radio-button-set.ui-buttonset a.ui-button:last-of-type {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: none
+}
+
+.fusion-builder-option.checkbox_button_set .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.checkbox_button_set .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.export .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.export .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.import .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.import .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.radio-buttonset .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.radio_button_set .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2),
+.fusion-builder-option.radio_button_set .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button:nth-of-type(2) {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left: none
+}
+
+.fusion-builder-option.checkbox_button_set .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.checkbox_button_set .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.export .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.export .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.import .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.import .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.radio-buttonset .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.radio_button_set .fusion-form-checkbox-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"],
+.fusion-builder-option.radio_button_set .fusion-form-radio-button-set.ui-buttonset.fusion-option-divider_candy a.ui-button[data-value="bottom,top"] {
+    border-right: 1px solid rgba(0, 0, 0, .1)
+}
+
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.checkbox_button_set .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.checkbox_button_set .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.export .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.export .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.import .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.import .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio-buttonset .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio-buttonset .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio_button_set .has-tooltip.fusion-builder-support:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio_button_set .has-tooltip.fusion-builder-support:before {
+    right: 10%;
+	left: auto;
+}
+
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.checkbox_button_set .has-tooltip:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.export .has-tooltip:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.import .has-tooltip:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio-buttonset .has-tooltip:after,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio_button_set .has-tooltip:after {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.checkbox_button_set .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.export .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.import .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio-buttonset .has-tooltip.fusion-builder-support:before,
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .fusion-builder-option.radio_button_set .has-tooltip.fusion-builder-support:before {
+    right: 52% !important;
+	left: auto;
+}
+
+.option-field .wp-picker-container.wp-picker-active .wp-picker-input-wrap input {
+    font-family: "Vazir";
+}
+
+.option-field .wp-picker-container.wp-picker-active .wp-picker-holder .iris-palette-container .iris-palette:first-child {
+    margin-right: 0!important
+}
+
+.option-field .fusion-colorpicker-container button.button.wp-color-result:before {
+    right: -1px;
+	left: auto;
+}
+
+.option-field .fusion-colorpicker-container .wp-picker-input-wrap {
+    margin-right: 4px;
+	margin-left: 0;
+}
+
+.option-field .fusion-colorpicker-container .wp-picker-input-container {
+    margin-right: 4px;
+	margin-left: 0;
+}
+
+.option-field .fusion-colorpicker-container .fusion-colorpicker-icon {
+    right: 0;
+	left: auto;
+}
+
+.option-field .fusion-colorpicker-container .wp-picker-container:not(.wp-picker-alpha-container) .wp-picker-holder .iris-square {
+    margin-left: 4%;
+	margin-right: 0;
+}
+
+.option-field .fusion-colorpicker-container>input.color-picker {
+    margin-left: 5px;
+    margin-right: -1px;
+}
+
+.option-field .fusion-colorpicker-container .wp-picker-clear {
+    left: 6px;
+	right: auto;
+}
+
+.fusion-builder-option.dimension .option-field .fusion-builder-dimension input,
+.fusion-builder-option.dimensions .option-field .fusion-builder-dimension input,
+.fusion-builder-option.spacing .option-field .fusion-builder-dimension input {
+    border-right: 1px solid #d2d2d2;
+}
+
+.fusion-builder-option.dimension .multi-builder-dimension .fusion-builder-dimension,
+.fusion-builder-option.dimensions .multi-builder-dimension .fusion-builder-dimension,
+.fusion-builder-option.spacing .multi-builder-dimension .fusion-builder-dimension {
+    margin-left: 10px;
+	margin-right: 0
+}
+
+.fusion-builder-option.dimension .multi-builder-dimension .fusion-builder-dimension:last-child,
+.fusion-builder-option.dimensions .multi-builder-dimension .fusion-builder-dimension:last-child,
+.fusion-builder-option.spacing .multi-builder-dimension .fusion-builder-dimension:last-child {
+    margin-left: 0
+}
+
+.fusion-builder-customizer-settings .option-details .option-preview-toggle {
+    left: 0;
+	right: auto;
+}
+
+.fusion-builder-option.tinymce .switch-html {
+    float: left
+}
+
+.fusion-builder-option.tinymce .switch-tmce {
+    float: right
+}
+
+.fusion-builder-option .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn:hover .mce-open {
+    border-right-color: #f2f3f5
+}
+
+.fusion-builder-option.custom .important-description strong:first-child:before,
+.fusion-builder-option.info .important-description strong:first-child:before {
+    margin-left: 10px;
+	margin-right: 0;
+}
+
+.fusion-builder-option.link_selector .fusion-link-selector .fusion-builder-link-field {
+    margin-left: 15px;
+	margin-right: 0;
+}
+
+.fusion-builder-option.media .preview:after {
+    content: "تصویری انتخاب نشده است"
+}
+
+.fusion-builder-option.media .button.upload-image-remove {
+    margin-left: 0;
+	margin-right: 5px;
+}
+
+.fusion-builder-option.range .option-field .fusion-slider-container,
+.fusion-builder-option.slider .option-field .fusion-slider-container {
+    margin-left: 0;
+	margin-right: 15px;
+}
+
+.fusion-builder-option.range .option-field .fusion-slider-container .noUi-handle,
+.fusion-builder-option.slider .option-field .fusion-slider-container .noUi-handle {
+    right: -9px;
+}
+
+.fusion-builder-option .option-field .repeater-row-add {
+    font-family: "Vazir";
+}
+
+.fusion-builder-option .option-field .repeater-row-add span.fusiona-plus {
+    margin: 0 0 0 5px
+}
+
+.fusion-builder-option .fusion-select-field .fusion-select-preview-wrap {
+    padding-right: 12px;
+    padding-left: 26px;
+}
+
+
+.fusion-builder-option .fusion-select-field .fusion-select-preview-wrap .fusiona-arrow-down {
+    left: 12px;
+	right: auto;
+}
+
+.fusion-builder-option .fusion-select-field .fusion-select-search:before {
+    right: 12px;
+	left: auto;
+}
+
+.fusion-builder-option .fusion-select-field .fusion-select-search input[type=text] {
+    padding-right: 35px;
+	padding-left: 0;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-select-preview-wrap {
+    padding-right: 5px;
+    padding-left: 26px;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-select-label:before {
+    margin-left: 10px;
+	margin-right: 0;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-preview-selected-value {
+    margin: 0 0 0 5px;
+    padding-right: 7px;
+	padding-left: 20px;
+    float: right;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-preview-selected-value .fusion-option-remove {
+    left: 7px;
+	right: auto;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-option-remove {
+    margin-right: 5px;
+	margin-left: 0;
+}
+
+.fusion-builder-option .fusion-select-field.fusion-form-multiple-select .fusion-select-placeholder {
+    right: 12px;
+	left: auto;
+}
+
+.fusion-builder-option.switch .switch-label .no,
+.fusion-builder-option.switch .switch-label .yes {
+    font-family: "Vazir" !important;
+}
+
+.fusion-builder-option.switch .switch-label span:first-of-type {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.fusion-builder-option.switch .switch-label span:last-of-type {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.fusion-builder-option .fusion-builder-typography .fusion-typography-select-wrapper .fusiona-arrow-down {
+    right: auto;
+	left: 12px;
+}
+
+.fusion-builder-option.iconpicker .fusion-iconpicker-preview .input-icon {
+    right: 12px;
+	left: auto;
+}
+.fusion-builder-option.iconpicker .fusion-iconpicker-preview .fusion-icon-search {
+    padding-right: 36px;
+    padding-left: 12px;
+}
+.fusion-builder-option.iconpicker .fusion-iconselect-wrapper:before {
+    right: auto;
+	left: 0;
+}
+
+.fusion-builder-option.iconpicker .icon_select_container {
+    border-right: 1px solid #e0e3e7;
+	border-left:0;
+}
+
+.fusion-builder-option.iconpicker .icon_select_container .icon_preview {
+    border-left: 1px solid #e0e3e7;
+	border-right:0;
+}
+
+.fusion-datetime-container .fusion-datetime-datepicker input,
+.fusion-datetime-container .fusion-datetime-timepicker input {
+    padding-right: 40px!important;
+	padding-left: 0!important;
+}
+
+.fusion-datetime-container .fusion-datetime-datepicker .add-on,
+.fusion-datetime-container .fusion-datetime-timepicker .add-on {
+    right: 0;
+	left:auto;
+}
+
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-builder-export-button,
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-builder-import-button,
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-builder-upload-button-multiple-upload,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-builder-export-button,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-builder-import-button,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-builder-upload-button-multiple-upload {
+    font-family: "Vazir" !important;
+}
+
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-upload-area[data-mode=file] .fusion-url-only-input,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-upload-area[data-mode=file] .fusion-url-only-input {
+    margin-left: 8px!important;
+    padding-left: 37px;
+	margin-right: 0!important;
+    padding-right: 0;
+}
+
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-upload-area[data-mode=file] .upload-image-remove,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-upload-area[data-mode=file] .upload-image-remove {
+    left: 60px;
+	right: auto;
+}
+
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-upload-area:not([data-mode=file]).fusion-uploaded-image .fusion-uploaded-area .fusion-uploded-image-options li a,
+.fusion-builder-main-settings .fusion-builder-option-container .fusion-upload-area:not([data-mode=file]).fusion-uploaded-image .fusion-uploaded-area .fusion-uploded-image-options li a {
+    font-family: "Vazir" !important;
+}
+
+.fusion-builder-option .fusion-builder-add-sortable-child span {
+    padding-left: 5px;
+	padding-right: 0
+}
+
+.fusion-builder-option .fusion-sortable-text-options {
+    padding-right: 0
+}
+
+.fusion-builder-option .fusion-sortable-text-options .fusion-sortable-option a.fusion-sortable-move {
+    padding-right: 10px;
+	padding-left: 0
+}
+
+.fusion-builder-option .fusion-sortable-text-options .fusion-sortable-option a.fusion-sortable-remove {
+    padding-right: 14px;
+    padding-left: 10px
+}
+
+.option-field .fusion-color-palette-options .fusion-color-palette-list .fusion-color-palette-item {
+    margin-left: 5px;
+	margin-right: 0;
+}
+
+.option-field .fusion-color-palette-options .fusion-color-palette-list .fusion-color-palette-item:after {
+    right: 0;
+	left: auto;
+}
+
+.option-field .fusion-color-palette-options .fusion-palette-colorpicker-container .wp-picker-input-wrap {
+    float: right;
+    margin-right: 0
+}
+
+.option-field .fusion-color-palette-options .fusion-palette-colorpicker-container .fusion-colorpicker-icon {
+    left: 0 !important;
+    right: auto!important;
+}
+
+.option-field .fusion-color-palette-options .fusion-palette-colorpicker-container .wp-picker-clear {
+    left: 6px;
+	right: auto;
+}
+
+.fusion-builder-option.tinymce .switch-html {
+    float: left
+}
+
+.fusion-builder-option.tinymce .switch-tmce {
+    float: right
+}
+
+.fusion-builder-option .wp-editor-wrap .wp-editor-tools .wp-editor-tabs .wp-switch-editor {
+    margin: 2px 5px 0 0;
+}
+
+.fusion-builder-option .wp-editor-wrap .wp-editor-container .mce-container-body .mce-container .mce-container-body .mce-container .mce-widget.mce-splitbtn:hover .mce-open {
+    border-right-color: #f2f3f5
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog #fusion-loader,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-loader {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-tabs-menu li a {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-modal-search {
+    left: 90px;
+	right: auto;
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-modal-search .fusion-elements-filter {
+    padding: 5px 10px 5px 0;
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .ui-dialog-titlebar {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
+    left: 0;
+	right:auto;
+    margin-left: 10px
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog.fusion-video-dialog .ui-dialog-titlebar .ui-dialog-titlebar-ƒ {
+    left: 0;
+	right: auto;
+}
+
+.fusion-builder-live .fusion-builder-dialog.ui-dialog.fusion-builder-error-dialog .ui-dialog-titlebar .icon.type-warning {
+    margin-left: 20px;
+	margin-right: 0;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options {
+    font-family: "Vazir";
+    right: auto;
+    left: -21px;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options .resize-section-title,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options .resize-section-title {
+    padding: 5px 10px 5px 27px;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options .dialog-more-options-section-menu .dialog-more-menu-items .dialog-more-menu-item span,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options .dialog-more-options-section-menu .dialog-more-menu-items .dialog-more-menu-item span {
+    padding: 0 20px 0 15px;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options .dialog-more-options-section-remove-item .dialog-more-remove-item .dialog-more-remote-title,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options .dialog-more-options-section-remove-item .dialog-more-remove-item .dialog-more-remote-title {
+    margin-right: 12px;
+	margin-left: 0;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options:before,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options:before {
+    right: auto;
+    left: 29px;
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-builder-dialog-more-options .resize-icons .resize-icon.has-tooltip:after,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-builder-dialog-more-options .resize-icons .resize-icon.has-tooltip:after {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live #customize-controls #fusion-builder-sections-eo .fusion-utility-menu-wrap,
+.fusion-builder-live .fusion-builder-dialog.ui-dialog .fusion-utility-menu-wrap {
+    left: 50px;
+	right: auto;
+}
+
+#fusion-builder-layouts-demos .fusion-builder-demo-select {
+    font: 12px/20px "Vazir", Helvetica, sans-serif;
+}
+
+#fusion-builder-layouts-templates .fusion-builder-layouts-header-fields input[type=text] {
+    font: 12px/20px "Vazir", Helvetica, sans-serif;
+}
+
+.fusion-builder-load-template-dialog {
+    left: 0;
+	right: auto;
+}
+
+.fusion-builder-load-template-dialog .fusion-builder-save-element-container span {
+    text-align: right;
+}
+
+.fusion-builder-load-template-dialog .fusion-builder-save-element-title {
+    text-align: right;
+}
+
+.fusion-builder-save-template-dialog {
+    left: 116px;
+	right: auto;
+}
+
+.fusion-builder-save-inner-row,
+.fusion_builder_template_button_save {
+    float: right;
+}
+
+.fusion-builder-layouts-header-fields .fusion-save-element-fields input[type=text] {
+    font: 12px/20px "Vazir", Helvetica, sans-serif;
+}
+
+.fusion-builder-layouts-header-fields .fusion-save-element-fields .save-as-global {
+    margin-left: 10px;
+	margin-right: 0;
+}
+
+.fusion-builder-layouts-header-fields .fusion-save-element-fields .save-as-global input[type=checkbox] {
+    margin: 1px 0 0 5px
+}
+
+.fusion-builder-layouts-header-fields .fusion-save-element-fields .save-as-global input[type=checkbox]:checked:before {
+    float: right;
+    margin: -3px -4px 0 0;
+}
+
+.fusion-builder-layouts-header-fields input[type=text] {
+    float: left;
+}
+
+.fusion-builder-layouts-header-fields .fusion-demo-selection-wrapper .fusion-builder-demo-page-link {
+    font: 12px/20px "Vazir", Helvetica, sans-serif;
+}
+
+#new_template_name {
+    float: left
+}
+
+.fusion-builder-layouts-header .fusion-builder-layouts-header-info {
+    float: right;
+}
+
+.fusion-builder-sortable-options li {
+    float: right;
+    text-align: right;
+    padding-right: 1em;
+	padding-left: 0
+}
+
+.fusion-builder-sortable-options li .fusion-builder-controls {
+    float: left;
+    left: 0;
+	right: auto;
+}
+
+.fusion-builder-sortable-options li .fusion-builder-controls a {
+    float: left;
+    border-right: 1px solid #ddd;
+}
+
+.fusion-builder-sortable-options li .multi-element-child-name {
+    padding: .8em 1em .8em .8em;
+}
+
+.fusion-builder-library-list .fusion-page-layout,
+.fusion-page-layouts .fusion-page-layout {
+    text-align: right;
+}
+
+.fusion-builder-library-list .fusion-page-layout .fusion-layout-buttons a.fusion-builder-demo-button-load,
+.fusion-builder-library-list .fusion-page-layout .fusion-layout-buttons a.fusion-builder-layout-button-load-dialog,
+.fusion-page-layouts .fusion-page-layout .fusion-layout-buttons a.fusion-builder-demo-button-load,
+.fusion-page-layouts .fusion-page-layout .fusion-layout-buttons a.fusion-builder-layout-button-load-dialog {
+    margin-right: 8px;
+	margin-left: 0;
+}
+
+.fusion-builder-library-list .fusion-builder-load-template-dialog,
+.fusion-page-layouts .fusion-builder-load-template-dialog {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-child-element .fusion-back-menu-item {
+    right: 16px;
+	left: auto;
+}
+
+.fusion-builder-child-element .ui-dialog-title {
+    right: 32px;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-element-name-wrapper,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-element-name-wrapper {
+    right: 20px;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-section-name,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-section-name {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:first-child,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:first-child {
+    float: left;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:last-child,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .ui-button:last-child {
+    float: right;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings>li.full-refresh-active:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings>li.partial-refresh-active:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-module-settings>li.full-refresh-active:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-module-settings>li.partial-refresh-active:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings>li.full-refresh-active:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings>li.partial-refresh-active:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-module-settings>li.full-refresh-active:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-module-settings>li.partial-refresh-active:before {
+    right: 0;
+	left: auto;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings .fusion-panel-options,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-module-settings .fusion-panel-options,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings .fusion-panel-options,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-module-settings .fusion-panel-options {
+    float: left;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings .fusion-panel-options li,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-module-settings .fusion-panel-options li,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings .fusion-panel-options li,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-module-settings .fusion-panel-options li {
+    margin: 0 10px 0 0;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-option-container .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-panel-options .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-option-container .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-panel-options .fusion-elements-option-tooltip {
+    font-family: "Vazir";
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-option-container a:not(.ui-button) .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-option-container li .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-panel-options a:not(.ui-button) .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-panel-options li .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-option-container a:not(.ui-button) .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-option-container li .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-panel-options a:not(.ui-button) .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-panel-options li .fusion-elements-option-tooltip {
+    right: auto;
+    left: -20px;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-option-container a:not(.ui-button) .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-option-container li .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-panel-options a:not(.ui-button) .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-custom-tab .fusion-panel-options li .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-option-container a:not(.ui-button) .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-option-container li .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-panel-options a:not(.ui-button) .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-panel-options li .fusion-elements-option-tooltip:before {
+    right: auto;
+    left: 21px;
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings li .fusion-panel-options li .fusion-elements-option-tooltip,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings li .fusion-panel-options li .fusion-elements-option-tooltip {
+    margin-left: 5px;
+	margin-right: 0
+}
+
+.fusion-builder-live .fusion-builder-custom-tab .fusion-builder-customizer-settings li .fusion-panel-options li .fusion-elements-option-tooltip:before,
+.fusion-builder-live .fusion-builder-settings-dialog.ui-dialog .fusion-builder-customizer-settings li .fusion-panel-options li .fusion-elements-option-tooltip:before {
+    left: 16px;
+	right: auto;
+}
+
+.fusion-builder-live .ui-dialog-content .fusion-keyboard-shortcuts-wrapper .fusion-shortcuts-list li ul li p {
+    letter-spacing: 0
+}
+
+.fusion-builder-live .ui-dialog-content .fusion-keyboard-shortcuts-wrapper .fusion-shortcuts-list li ul li p i {
+    margin: 0 0 0 5px
+}
+
+.fusion-builder-live .ui-dialog-content .fusion-keyboard-shortcuts-wrapper .fusion-front-end-important-notice {
+    padding: 30px 45px 30px 30px;
+}
+
+.fusion-builder-live .ui-dialog-content .fusion-keyboard-shortcuts-wrapper .fusion-front-end-important-notice:before {
+    right: 20px;
+	left: auto;
+}
+
+body #wp-link #link-modal-title {
+    font-family: "Vazir" !important;
+}
+
+body #wp-link #search-panel .link-search-wrapper span.search-label {
+    right: -100vw!important;
+	left: auto !important;
+}
+
+body #wp-link #search-panel .link-search-wrapper span.search-label:before {
+    margin-right: calc(100vw + 30px)!important;
+	margin-left: 0!important;
+}
+
+body #wp-link #search-panel #wp-link-search {
+    padding-right: 40px!important;
+	padding-left: 0!important
+}
+
+body #wp-link .query-notice .query-notice-default,
+body #wp-link .query-notice .query-notice-hint {
+    border-right-color: #198fd9!important;
+    padding-right: 6px!important;
+	padding-left: 0!important
+}
+
+body #wp-link .submitbox>* button,
+body #wp-link .submitbox>* input {
+    font-family: "Vazir" !important
+}
+.ui-dialog .ui-dialog-title {
+	float: right !important;
+}
+.sidebar-right #fb-preview-loader {
+	right: auto;
+	left: 0;
+}
+.fusion-builder-customizer-settings .fusion-builder-option-container .fusion-upload-area:not([data-mode="file"]):not(.fusion-upload-media-type-audio).fusion-uploaded-image .fusion-uploaded-area .fusion-uploded-image-options li a, .fusion-builder-main-settings .fusion-builder-option-container .fusion-upload-area:not([data-mode="file"]):not(.fusion-upload-media-type-audio).fusion-uploaded-image .fusion-uploaded-area .fusion-uploded-image-options li a {
+	font-family: 'Vazir';
+}
